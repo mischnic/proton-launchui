@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "build": "webpack -p",
+    "package": "npm run build && launchui-packager --overwrite 'Nodepad' 1.0.1 build/index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "launchui-packager": "^0.1.1",
+    "webpack-cli": "^3.0.8"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "proton-native": "^1.1.8",
+    "webpack": "^4.12.0"
+  }
+}
