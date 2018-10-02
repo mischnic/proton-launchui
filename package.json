@@ -3,7 +3,7 @@
   "scripts": {
     "start": "babel-node src/index.js",
     "build": "webpack -p",
-    "package": "npm run build && launchui-packager --overwrite 'Nodepad' 1.0.1 build/index.js"
+    "package": "npm run build && launchui-packager --overwrite Nodepad 1.0.1 build/index.js"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
